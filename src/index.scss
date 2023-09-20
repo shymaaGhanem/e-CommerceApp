@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+
+  $bgColor:#0aad0a;
+  $lightBgColor:#f0f3f2;
+  $shadow: rgba(145,158,171,.2) 0px 2px 4px -1px,rgba(145,158,171,.14) 0px 4px 5px 0px,rgba(145,158,171,.12) 0px 1px 10px 0px;
+  $fontFamily:'Encode Sans Expanded', sans-serif;
+  $ratingColor:#ffc908;
+
+
+body{
+font-family: $fontFamily;
+}
+.rating-color
+{
+  color:$ratingColor;
+}
+
+.cursor-pointer
+{
+    cursor: pointer;
+}
+
+a , a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.text-main
+{
+    color:$bgColor;
+}
+.bg-main
+{
+    background-color:$bgColor !important;
+}
+.bg-main-light 
+{
+    background-color: $lightBgColor !important;
+}

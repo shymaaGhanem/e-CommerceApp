@@ -1,13 +1,1 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import"https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap";body{font-family:"Encode Sans Expanded",sans-serif}.rating-color{color:#ffc908}.cursor-pointer{cursor:pointer}a,a:hover{color:#000;text-decoration:none}.text-main{color:#0aad0a}.bg-main{background-color:#0aad0a !important}.bg-main-light{background-color:#f0f3f2 !important}
