@@ -8,9 +8,15 @@ import Brands from "./components/brands/brands";
 import Signin from "./components/Signin/Signin";
 import Cart from "./components/cart/cart";
 import Category from "./components/Category/Category";
+import toast, { CheckmarkIcon, Toaster } from 'react-hot-toast';
 import NotFound from "./components/notFound/notFound";
-import UserContextProvider, { userContext } from "./context/userToken";
 import ProtectedRouter from "./components/ProtectedRouter/ProtectedRouter";
+import Details from './components/details/details';
+import { userContext } from "./context/userToken";
+import ForgotPassword from "./components/forgotPassword/forgotPassword";
+import ResetPassword from "./components/resetPassword/resetPassword";
+import Checkout from './components/checkout/checkout';
+import Allorders from './components/allorders/allorders';
 
 export default function App() {
   let {setToken}=useContext(userContext)
@@ -27,8 +33,13 @@ export default function App() {
         { path: "products", element:<ProtectedRouter><Products /></ProtectedRouter>},
         { path: "brands", element:<ProtectedRouter><Brands /></ProtectedRouter>  },
         { path: "cart", element: <ProtectedRouter><Cart /></ProtectedRouter> },
+        { path: "forgotPassword", element:<ForgotPassword/>},
+        { path: "resetPassword", element:<ResetPassword/>},
+        { path: "details/:id", element: <ProtectedRouter><Details/></ProtectedRouter> },
+        { path: "checkout", element: <ProtectedRouter><Checkout/></ProtectedRouter> },
         { path: "category", element:<ProtectedRouter><Category /></ProtectedRouter>  },
-        { path: "**", element: <NotFound /> },
+        { path: "allorders", element:<ProtectedRouter><Allorders/></ProtectedRouter>  },
+        { path: "*", element: <NotFound /> },
       ],
     },
   ]);
@@ -41,8 +52,9 @@ export default function App() {
     
   return (
     <div>
-    
-        <RouterProvider router={router} />
+  
+    <RouterProvider router={router} />
+    <Toaster />
 
     </div>
   );

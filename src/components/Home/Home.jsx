@@ -1,11 +1,19 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import Products from '../Products/Products'
-import Cart from '../cart/cart'
-import { counterContext } from '../../context/counterContext'
+import Category from '../Category/Category'
+import MainSlider from './../mainSlider/mainSlider';
+import {Helmet} from "react-helmet";
 
 export default function Home() {
   return (
-    <div>Home
+  
+    <div>
+           <Helmet>
+                <title>Home</title>
+            </Helmet>
+    <MainSlider/>
+    <Category/>
+    <Products/>
   
     </div>
   )

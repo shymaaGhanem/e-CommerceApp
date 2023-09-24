@@ -84,6 +84,8 @@ let {setToken}=useContext(userContext)
             Login
           </button>
           <Link to='/signup'><span className="text-main">go To Register now...</span></Link>
+          <br/>
+          <Link to='/forgotPassword'><span className="text-main"> forgotPassword ...</span></Link>
           </>
          
           }
