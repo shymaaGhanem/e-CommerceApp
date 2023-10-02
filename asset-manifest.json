@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.7856bd73.css",
+    "main.js": "/react-gh-pages/static/js/main.e014ccc7.js",
+    "static/js/787.46493d11.chunk.js": "/react-gh-pages/static/js/787.46493d11.chunk.js",
+    "static/media/fa-solid-900.ttf": "/react-gh-pages/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/react-gh-pages/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/react-gh-pages/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/react-gh-pages/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/react-gh-pages/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/react-gh-pages/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/freshcart-logo.svg": "/react-gh-pages/static/media/freshcart-logo.53f7a424c3aedc30a0fb46dc2278137c.svg",
+    "static/media/fa-v4compatibility.ttf": "/react-gh-pages/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/react-gh-pages/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "static/media/slick.svg": "/react-gh-pages/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-gh-pages/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-gh-pages/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-gh-pages/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react-gh-pages/index.html",
+    "main.7856bd73.css.map": "/react-gh-pages/static/css/main.7856bd73.css.map",
+    "main.e014ccc7.js.map": "/react-gh-pages/static/js/main.e014ccc7.js.map",
+    "787.46493d11.chunk.js.map": "/react-gh-pages/static/js/787.46493d11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7856bd73.css",
+    "static/js/main.e014ccc7.js"
+  ]
+}
